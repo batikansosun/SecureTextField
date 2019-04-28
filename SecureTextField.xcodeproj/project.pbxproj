@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A000E54F227634DE00EDA73F /* SecureTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A000E54E227634DE00EDA73F /* SecureTextField.m */; };
 		A05D2EAE22723C9F00449EA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05D2EAD22723C9F00449EA2 /* AppDelegate.m */; };
 		A05D2EB122723C9F00449EA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05D2EB022723C9F00449EA2 /* ViewController.m */; };
 		A05D2EB422723C9F00449EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05D2EB222723C9F00449EA2 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A000E54D227634DE00EDA73F /* SecureTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureTextField.h; sourceTree = "<group>"; };
+		A000E54E227634DE00EDA73F /* SecureTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureTextField.m; sourceTree = "<group>"; };
 		A05D2EA922723C9F00449EA2 /* SecureTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05D2EAC22723C9F00449EA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A05D2EAD22723C9F00449EA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				A05D2EAD22723C9F00449EA2 /* AppDelegate.m */,
 				A05D2EAF22723C9F00449EA2 /* ViewController.h */,
 				A05D2EB022723C9F00449EA2 /* ViewController.m */,
+				A000E54D227634DE00EDA73F /* SecureTextField.h */,
+				A000E54E227634DE00EDA73F /* SecureTextField.m */,
 				A05D2EB222723C9F00449EA2 /* Main.storyboard */,
 				A05D2EB522723CA000449EA2 /* Assets.xcassets */,
 				A05D2EB722723CA000449EA2 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A000E54F227634DE00EDA73F /* SecureTextField.m in Sources */,
 				A05D2EB122723C9F00449EA2 /* ViewController.m in Sources */,
 				A05D2EBC22723CA000449EA2 /* main.m in Sources */,
 				A05D2EAE22723C9F00449EA2 /* AppDelegate.m in Sources */,
@@ -436,12 +442,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X58PL39EC;
 				INFOPLIST_FILE = SecureTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.loodos.we.SecureTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loodos.SecureTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,12 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X58PL39EC;
 				INFOPLIST_FILE = SecureTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.loodos.we.SecureTextField;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loodos.SecureTextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
