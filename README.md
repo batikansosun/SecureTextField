@@ -21,3 +21,5 @@ A beautiful TextField with hides the password and enforce good password policies
  * Set dynamic features
  * Congratulations!
  
+## License
+`PasswordTextField` is released under the MIT license. See [LICENSE](https://github.com/batikansosun/SecureTextField/blob/master/LICENSE) for details.
