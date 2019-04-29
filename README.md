@@ -12,7 +12,8 @@ A beautiful TextField with hides the password and enforce good password policies
  * Set number of circle  in IB or programmatically.
  
  
- # :octocat: Installation
+ # :octocat: Installation And :metal: Usage
+---
  
  * Download and drop /SecureTextField folder in your project.
  * #import "SecureTextField.h"
