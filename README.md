@@ -12,7 +12,7 @@ A beautiful TextField with hides the password and enforce good password policies
  * Set number of circle  in IB or programmatically.
  
  
- # :octocat: Installation And :metal: Usage
+ # :octocat: Installation  :metal: Usage
 ---
  
  * Download and drop /SecureTextField folder in your project.
